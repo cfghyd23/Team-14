@@ -8,8 +8,8 @@ import { CssBaseline, ThemeProvider, buttonBaseClasses } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import { themeSettings } from "./theme";
 import Payment from './components/Payment'
-import PDFFile from './components/GenerateCertificate'
-import {PDFDownloadLink} from '@react-pdf/renderer'
+import DownloadPDF from './components/DownloadCertificate'
+import { PDFDownloadLink } from '@react-pdf/renderer'
 function App() {
   const mode = useSelector((state) => state.mode);
   const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
@@ -33,6 +33,7 @@ function App() {
           </Routes>
         </ThemeProvider>
       </BrowserRouter>
+
     </div>
   );
 }
