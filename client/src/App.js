@@ -8,6 +8,7 @@ import { CssBaseline, ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import { themeSettings } from "./theme";
 import Orientation from "scenes/orientation";
+import Progressbar from "components/progressBar/Progressbar";
 function App() {
   const mode = useSelector((state) => state.mode);
   const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
@@ -31,7 +32,8 @@ function App() {
           </Routes>
         </ThemeProvider>
       </BrowserRouter> */}
-      <Orientation/>
+      {/* <Orientation/> */}
+      {/* <Progressbar/> */}
     </div>
   );
 }
