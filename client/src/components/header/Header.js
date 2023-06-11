@@ -9,9 +9,16 @@ import pic3 from "../../assets/img/blog/img3.jpg"
 import pic4 from "../../assets/img/blog/img4.jpg"
 import pic5 from "../../assets/img/blog/img5.jpg"
 import pic6 from "../../assets/img/blog/img6.jpg"
+import { useNavigate } from 'react-router-dom';
+const Header = () => {
 
-const Header = () => (
-   <div>
+  const navigate=useNavigate()
+
+  const f=()=>{
+    navigate('/login')
+  }
+  return (
+    <div>
     
     <div className="container">
         <div className="row">
@@ -93,7 +100,7 @@ const Header = () => (
             <a href="blog-details.html">Decent Work and Economic Growth</a><br/><br/>
             <p class="post-category">Ensure access to affordable, reliable, sustainable, 
               and modern energy for all.</p>
-              <button type="button" class="btn btn-success">Join Campaign</button>
+              <button type="button"  onClick={f}class="btn btn-success">Join Campaign</button>
 
           </h2>
 
@@ -204,7 +211,8 @@ const Header = () => (
 </main>
 
    </div>
+  )
 
-);
+  };
 
 export default Header;
