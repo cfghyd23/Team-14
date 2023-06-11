@@ -93,7 +93,7 @@ const Header = () => (
             <a href="blog-details.html">Decent Work and Economic Growth</a><br/><br/>
             <p class="post-category">Ensure access to affordable, reliable, sustainable, 
               and modern energy for all.</p>
-              <button type="button" class="btn btn-success">Click Me</button>
+              <button type="button" class="btn btn-success">Join Campaign</button>
 
           </h2>
 
@@ -112,7 +112,7 @@ const Header = () => (
             <a href="blog-details.html">Clean Water and Sanitation</a><br/><br/>
             <p class="post-category">Ensure availability and sustainable management of
                water and sanitation for all.</p>
-               <button type="button" class="btn btn-success">Click Me</button>
+               <button type="button" class="btn btn-success">Join Campaign</button>
 
           </h2>
 
@@ -128,7 +128,7 @@ const Header = () => (
           <h2 class="title">
             <a href="blog-details.html">Good Health and Well-Being</a><br/><br/>
             <p class="post-category">Ensure healthy lives and promote well-being for all at all ages.</p>
-            <button type="button" class="btn btn-success">Click Me</button>
+            <button type="button" class="btn btn-success">Join Campaign</button>
 
           </h2>
 
@@ -151,7 +151,7 @@ const Header = () => (
             <a href="blog-details.html">Life Below Water</a><br/><br/>
             <p class="post-category">Conserve and sustainably use the oceans, seas,
                and marine resources for sustainable development.</p>
-               <button type="button" class="btn btn-success">Click Me</button>
+               <button type="button" class="btn btn-success">Join Campaign</button>
 
           </h2>
 
@@ -169,7 +169,7 @@ const Header = () => (
             <a href="blog-details.html">Life On Land</a><br/><br/>
             <p class="post-category">Protect, restore, and promote the sustainable use of 
               terrestrial ecosystems, forests, and biodiversity.</p>
-              <button type="button" class="btn btn-success">Click Me</button>
+              <button type="button" class="btn btn-success">Join Campaign</button>
 
           </h2>
 
@@ -187,7 +187,7 @@ const Header = () => (
             <a href="blog-details.html">Quality Education</a><br/><br/>
             <p class="post-category">Ensure inclusive and equitable quality education 
               and promote lifelong learning opportunities for all.</p>
-              <button type="button" class="btn btn-success">Click Me</button>
+              <button type="button" class="btn btn-success">Join Campaign</button>
 
           </h2>
 

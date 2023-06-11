@@ -2,60 +2,47 @@ import React from 'react';
 import logo from "../../assets/img/blog/logo.jpg";
 import 'bootstrap/dist/css/bootstrap.css';
 import './Testinomial.css';
+import test1 from "../../assets/img/testimonials/testimonials-1.jpg";
+import test2 from "../../assets/img/testimonials/testimonials-2.jpg"
+import test3 from "../../assets/img/testimonials/testimonials-3.jpg"
+import test4 from "../../assets/img/testimonials/testimonials-4.jpg"
+import test5 from "../../assets/img/testimonials/testimonials-5.jpg"
+
+
 
 
 const Testinomial = () => (
    <div>
     
-    <div classNameName="container">
-        <div classNameName="row">
-          <div classNameName="col-md-6">
-          <header classNameName="header d-flex align-items-right sticky-top" id="header">
-    <div classNameName="container-fluid d-flex align-items-center justify-content-between">
+    <div className="container">
+        <div className="row">
+          <div className="col-md-6">
+          <header className="header d-flex align-items-right sticky-top" id="header">
+    <div className="container-fluid d-flex align-items-center justify-content-between">
 
-    <a classNameName="logo d-flex align-items-center me-auto me-xl-0" href="index.html">
+    <a className="logo d-flex align-items-center me-auto me-xl-0" href="index.html">
         <img src={logo} alt="Logo"/>
         <h1>MARPU</h1>
       </a>
       </div>
       </header>
           </div>
-          <div classNameName="col-md-3">
+          <div className="col-md-3">
           </div>
-          <div classNameName="col-md-3">
-          <nav id="navmenu" classNameName="navmenu">
+          <div className="col-md-3">
+          <nav id="navmenu" className="navmenu">
         <ul>
-          <li><a href="about.html" >Home</a></li>
-          <li><a href="/testinomial" classNameName="active">Testimonials</a></li>
+          <li><a href="/" >Home</a></li>
+          <li><a href="/testinomial" className="active">Testimonials</a></li>
         </ul>
       </nav>
 
           </div>
         </div>
     </div>
-    <body className="blog-page">
+    <div className="blog-page">
 <header className="header d-flex align-items-center sticky-top" id="header">
-  <div className="container-fluid d-flex align-items-center justify-content-between">
 
-    <a className="logo d-flex align-items-center me-auto me-xl-0" href="index.html">
-      <img src="assets/img/blog/logo.jpg" alt="Logo"/>
-      <h1>Marpu</h1>
-      <span>.</span>
-    </a>
-
-   
-    <nav id="navmenu" className="navmenu">
-      <ul>
-        
-        <li><a href="about.html">Home</a></li>
-        <li><a href="blog.html" className="active">Testimonials</a></li>
-      
-      </ul>
-
-      <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
-    </nav>
-
-  </div>
 </header>
 
 <main id="main">
@@ -84,7 +71,7 @@ const Testinomial = () => (
               <div className="swiper-slide">
                 <div className="testimonial-item">
                   <div className="d-flex">
-                    <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img flex-shrink-0" alt=""/>
+                    <img src={test1} className="testimonial-img flex-shrink-0" alt=""/>
                     <div>
                       <h3>Manish</h3>
                       <h4>Intern</h4>
@@ -106,7 +93,7 @@ const Testinomial = () => (
               <div className="swiper-slide">
                 <div className="testimonial-item">
                   <div className="d-flex">
-                    <img src="assets/img/testimonials/testimonials-2.jpg" className="testimonial-img flex-shrink-0" alt=""/>
+                    <img src={test2} className="testimonial-img flex-shrink-0" alt=""/>
                     <div>
                       <h3>Sara</h3>
                       <h4>Volunteer</h4>
@@ -128,7 +115,7 @@ const Testinomial = () => (
               <div className="swiper-slide">
                 <div className="testimonial-item">
                   <div className="d-flex">
-                    <img src="assets/img/testimonials/testimonials-3.jpg" className="testimonial-img flex-shrink-0" alt=""/>
+                    <img src={test3} className="testimonial-img flex-shrink-0" alt=""/>
                     <div>
                       <h3>Sarah</h3>
                       <h4>Volunteer</h4>
@@ -151,7 +138,7 @@ const Testinomial = () => (
               <div className="swiper-slide">
                 <div className="testimonial-item">
                   <div className="d-flex">
-                    <img src="assets/img/testimonials/testimonials-4.jpg" className="testimonial-img flex-shrink-0" alt=""/>
+                    <img src={test4} className="testimonial-img flex-shrink-0" alt=""/>
                     <div>
                       <h3>Malik</h3>
                       <h4>Volunteer</h4>
@@ -173,7 +160,7 @@ const Testinomial = () => (
               <div className="swiper-slide">
                 <div className="testimonial-item">
                   <div className="d-flex">
-                    <img src="assets/img/testimonials/testimonials-5.jpg" className="testimonial-img flex-shrink-0" alt=""/>
+                    <img src={test5} className="testimonial-img flex-shrink-0" alt=""/>
                     <div>
                       <h3>John</h3>
                       <h4>Intern</h4>
@@ -217,7 +204,7 @@ const Testinomial = () => (
 
 <script src="assets/js/main.js"></script>
 
-</body>
+</div>
 
 
    </div>
