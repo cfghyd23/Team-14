@@ -56,7 +56,7 @@ const Navbar = () => {
             },
           }}
         >
-          Sociopedia
+          Marpu
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
