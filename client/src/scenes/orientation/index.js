@@ -10,6 +10,7 @@ const Orientation = () => {
         </div>
         <div className={styles.carddivinner}>
           <OrientationCard />
+          
         </div>
         <div>
           <h2> Prerecorded Sessions</h2>
