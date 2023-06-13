@@ -42,7 +42,7 @@ function Payment() {
         }
 
         const options = {
-            key: "",
+            key: KEY,
             currency: "INR",
             amount: amount * 100,
             name: "MARPU",
